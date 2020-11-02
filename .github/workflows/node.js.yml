@@ -30,7 +30,8 @@ jobs:
       working-directory: react_app
     - run: npm test
       working-directory: react_app
-    - name: Deploy      
+    - name: Deploy  
+      working-directory: react_app     
       run: |         
         git config --global user.name $user_name         
         git config --global user.email $user_email 
