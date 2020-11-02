@@ -39,6 +39,5 @@ jobs:
       env:
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.U2017049 }}
-        working-directory: react_app
+        github_token: ${{ secrets.U2017049 }}        
         repository: ${{ github.repository }}
